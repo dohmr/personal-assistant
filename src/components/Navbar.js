@@ -1,9 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import { FontAwesome } from 'react-fontawesome';
-import { faBars } from 'react-fontawesome';
+import logo from "../logo.png"
 
 //logo 26 min
+
+// 51:14 01/05/2020
 
 const Navbar = () => {
     return (
@@ -11,7 +12,7 @@ const Navbar = () => {
             <div className="container">
 
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Navbar</a>
+                    <a className="navbar-brand" href="#"><img src={logo} alt="logo..."/>   </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
