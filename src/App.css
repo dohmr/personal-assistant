@@ -48,3 +48,31 @@ nav ul li {
   color: var(--primary-white) !important;
 }
 
+/******************* HEADER ***************/
+
+.header-wrapper {
+  position: relative;
+  background: url(background.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-info h1 {
+  color: var(--primary-white);
+}
+
+/************* Typed ***************/
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+}
