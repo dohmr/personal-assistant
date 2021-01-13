@@ -221,12 +221,14 @@ nav ul li {
 
 /******************* EXP ***************/
 
+
 .experience {
   padding: 0.7rem;
 }
 
 .experience-wrapper {
   position: relative;
+
   padding: 3.125rem 0;
   overflow: hidden;
 }
