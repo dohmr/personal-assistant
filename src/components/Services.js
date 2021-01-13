@@ -1,10 +1,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBrush, faDesktop, faFileCode } from '@fortawesome/free-solid-svg-icons';
 // import { faGithub } from '@fortawesome/free-brands-svg-icons';
 // import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 // import { faGoogle } from '@fortawesome/free-brands-svg-icons';
 // import { faAmazon } from '@fortawesome/free-brands-svg-icons';
-import { faBrush, faDesktop, faFileCode } from '@fortawesome/free-solid-svg-icons';
 
 function Services() {
     return (
