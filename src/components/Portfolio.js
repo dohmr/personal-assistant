@@ -3,6 +3,8 @@ import gkLand from "../images/gk-land.png";
 import gkSearch from "../images/gk-games.png";
 import ogPortfolio from "../images/og-portfolio.png";
 import up2u from "../images/up2u.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
 
 function Portfolio() {
     return (
@@ -13,21 +15,25 @@ function Portfolio() {
                     <div className="portfolio-image-box">
                         <img className="portfolio-image" src={gkLand} alt="Game Kiwi App..." />
                         <div className="overflow"></div>
+                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
 
                     <div className="portfolio-image-box">
                         <img className="portfolio-image" src={ogPortfolio} alt="Original Portfolio page..." />
                         <div className="overflow"></div>
+                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
 
                     <div className="portfolio-image-box">
                         <img className="portfolio-image" src={up2u} alt="Remote WebDev Job search..." />
                         <div className="overflow"></div>
+                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
 
                     <div className="portfolio-image-box">
                         <img className="portfolio-image" src={gkSearch} alt="Game Kiwi App..." />
                         <div className="overflow"></div>
+                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                 </div>
             </div>
