@@ -222,7 +222,6 @@ nav ul li {
 
 /******************* EXP ***************/
 
-
 .experience {
   padding: 0.7rem;
 }
@@ -289,7 +288,7 @@ nav ul li {
   font-weight: 900;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .experience .container {
     padding-left: 0;
   }
@@ -373,4 +372,34 @@ nav ul li {
 
 .hyper-link:hover {
   color: var(--primary-red);
+}
+
+@media (max-width 768px) {
+  .portfolio-image-pop {
+    width: 100%;
+  }
+}
+
+@media (max-height: 500px) {
+  .popupbox-wrapper {
+    height: 100%;
+  }
+
+  .portfolio-image-pop {
+    width: 60%;
+  }
+}
+
+@media (max-height: 280px) {
+  .popupbox-wrapper {
+    height: 90%;
+  }
+
+  .portfolio-image-pop {
+    width: 30%;
+  }
+}
+
+.portfolio-wrapper h1 {
+  color: var(--primary-orange);
 }
