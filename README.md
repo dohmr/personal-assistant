@@ -1,13 +1,13 @@
-# Self-Fullfillment 
+# Handyman-work-portfolio 
 
-Exercising my knowledge, and expanding my skillset with React.js
+A React.js portfolio
 
-This is a personal portfolio page.
+This is a potential work portfolio for a client.
 
 ## Contact Me
 
 [Shawn Yandall // LinkedIn](https://www.linkedin.com/in/shawnyandall/)
 
-# selfPortrait
+# FOX handyMan
 
 # personal-assistant
