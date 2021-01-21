@@ -4,8 +4,8 @@ import {
     FacebookIcon,
     LinkedinIcon,
     LinkedinShareButton,
-    InstapaperIcon,
-    InstapaperShareButton
+    // InstapaperIcon,
+    // InstapaperShareButton
 } from "react-share";
 
 
