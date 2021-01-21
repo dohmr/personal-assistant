@@ -404,7 +404,6 @@ nav ul li {
   }
 }
 
-
 /******************* CONTACT ***************/
 
 .contacts {
@@ -421,10 +420,10 @@ nav ul li {
 .contacts p {
   color: var(--primamry-light-grey);
   font-size: 1.2rem;
-
 }
 
-.contacts input, .contacts textarea {
+.contacts input,
+.contacts textarea {
   width: 100%;
   box-sizing: border-box;
   background: none;
@@ -442,10 +441,10 @@ nav ul li {
 
 .contacts .container {
   padding: 4rem 0;
-
 }
 
-.contacts input:focus, .contacts textarea:focus {
+.contacts input:focus,
+.contacts textarea:focus {
   background: transparent;
   color: var(--primary-orange);
   border-bottom: 0.125rem solid var(--primary-dark-grey);
@@ -470,7 +469,8 @@ nav ul li {
   display: inline-block;
 }
 
-input:focus+.line, textarea:focus+.line {
+input:focus + .line,
+textarea:focus + .line {
   width: 100%;
   transition: width 0.5s ease-in-out;
 }
@@ -494,7 +494,7 @@ textarea.form-control {
   color: green;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .contacts {
     overflow-x: hidden;
   }
@@ -506,3 +506,25 @@ textarea.form-control {
   }
 }
 
+/******************* FOOTER ***************/
+
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
